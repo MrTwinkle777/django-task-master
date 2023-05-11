@@ -1,0 +1,19 @@
+{% extends "todo/base.html" %}
+
+{% block content %}
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="row justify-content-center mt-5">
+        <div class="col-md-7 text-center">
+
+                 <h1>TaskMaster.</h1>
+            <p>TaskMaster - это онлайн-инструмент, который поможет вам эффективно управлять вашим списком задач. Добавляйте <b>новые задачи</b>, устанавливайте <b>приоритеты</b>  и, помечайте <strike>выполненные</strike> задания. Также вы можете &#10003;отметить важные задачи, чтобы не упустить их из виду. TaskMaster поможет вам структурировать ваш рабочий день и добиться больших результатов в вашей работе или личной жизни.</p>
+        <a role="button" class="btn btn-lg" href="{% url 'signupuser' %}">Start</a>
+        </div>
+    </div>
+
+{% endblock %}

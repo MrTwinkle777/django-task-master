@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(81, 203, 152);
+    color:rgb(33, 43, 62);
+}
+.nav-link, .navbar-brand{
+    color:rgb(81, 203, 152) !important;
+}
+.list-group-item{
+    border: 1px solid rgb(81, 203, 152) ;
+    background-color: rgb(33, 43, 62);
+    color: rgb(81, 203, 152);
+    margin-bottom: 5px;
+}
+.list-group-item-danger{
+    border:2px solid red !important;
+}
+.btn{
+    border: 1px solid rgb(33, 43, 62);
+    background-color: rgb(81, 203, 152) ;
+    color: rgb(33, 43, 62);
+}
+.btn:hover{
+    border: 1px solid rgb(81, 203, 152);
+    background-color: rgb(33, 43, 62) ;
+    color: rgb(81, 203, 152);
+}
+
